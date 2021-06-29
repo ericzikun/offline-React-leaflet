@@ -142,8 +142,8 @@ isGeojson(){
       <Map  center={center} zoom={4} >
        {items2}
         <TileLayer
-          url="http://localhost:8080/xyz/roadmap/{z}/{x}/{y}.png"
-          // url = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          // url="http://localhost:8080/xyz/roadmap/{z}/{x}/{y}.png"
+          url = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           minZoom={1} maxZoom={8}
         />
         <LayerGroup>
