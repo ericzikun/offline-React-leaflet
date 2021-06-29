@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import logo from './logo.svg';
+import './index.css';
+import ReactDOM from 'react-dom';
+import "./assets/css/leaflet.css"
+import MapIndex from './components/MapIndex'
+// import SimpleExample from './components/simple';
+import MapIndexoffline from './components/MapIndexoffline';
+import OtherLayersExample from './components/OtherLayerExample';
+// import {geoJSON} from 'leaflet';
+import Geojson from './components/Geojson';
+
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div id="root"> 
+    <OtherLayersExample />  
+    </div>   
+    
   );
 }
 

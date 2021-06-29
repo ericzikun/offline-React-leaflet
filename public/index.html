@@ -24,7 +24,73 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+
+
+    <!-- 导入leaflet.css和leaflet.js -->
+    <!-- <link rel="stylesheet" href="../assets/css/leaflet.css" />
+    <script src="../assets/css/leaflet.js"></script> -->
+    
+    <!-- 导入react leaflet-draw.css -->
+    <!-- <link rel="stylesheet" href='css/leaflet.draw.css'/> -->
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox.js/plugins/leaflet-draw/v0.4.10/leaflet.draw.css"/>
+
+    <title>React App</title>     
+    <!-- <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="//unpkg.com/leaflet@1.6.0/dist/leaflet.css" /> -->
+    
+    
+    
+    <!-- 中国地图外部引入 -->
+    <!-- <script src="https://cdn.bootcss.com/proj4js/2.4.3/proj4.js"></script>
+    <script src="https://cdn.bootcss.com/proj4leaflet/1.0.1/proj4leaflet.min.js"></script> -->
+
+
+    <!-- 官方必装样式 -->
+    <style>
+      /* body {
+        padding-bottom: 30px;
+      }
+      h1,
+      h2,
+      p {
+        font-family: sans-serif;
+        text-align: center;
+      } */
+      .leaflet-container {
+        height: 1500px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0%;
+      }
+      .root {
+        width:100%;height:100%;
+      }
+      /* html,body{
+        margin:0;
+        padding:0;
+        width:100%;
+        height:100%;
+        overflow:hidden;
+      } */
+      /* #my-offline-leaflet-map{
+      width:100%;height:100%;
+     }  */
+     /* #mapbox{
+      width:100%;height:100%;
+     } */
+     /* #mapDiv {
+        height: 1000px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 0%;
+     } */
+  .sr-only {
+    display: none;
+  }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
